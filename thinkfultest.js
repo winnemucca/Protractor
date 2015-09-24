@@ -52,3 +52,8 @@ describe('Protractor Demo App', function() {
     expect(latestResult.getText()).toEqual('0');
   });
 });
+
+
+// browser	Loads new pages, reads properties
+// element	Placeholder for one or more DOM elements. Similar to jQuery's $ and Angular's angular.element
+// by	Used to find elements within a page via css selector, id, name and so on. This similar to the $() selector in jQuery and querySelectorAll in standard, DOM-oriented JavaScript code
